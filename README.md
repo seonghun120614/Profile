@@ -27,3 +27,55 @@ This project allows exploration of basic web development while emphasizing desig
 2. You should activate the Github Pages functionality so your website will be public (although your repository is private). 
 
 3. The root directory of the project repository should contain a short screencast with audio (maximum 3 minutes) navigating your website, demonstrating responsiveness and showing the main elements that you used.
+===
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Folder Structure](#folder-structure)
+- [Features](#feature)
+- [Usage](#usage)
+- [License](#license)
+
+## Introduction
+
+This is a website designed to showcase my personal portfolio and demonstrate my skills in web development.
+
+## Folder Structure
+
+```
+project/
+│
+├── index.html
+│
+├── pages/
+│   ├── contact.html
+│   ├── portfolio.html
+│   └── skills.html
+│
+├── css/
+│   └── style.css
+│
+├── scss/
+│   └── style.scss
+│
+└── static/
+    │
+    ├── fonts/
+    │   └── ...
+    │
+    └── images/
+        └── ...
+```
+
+## Feature
+
+1. Styling: Using SCSS to reduce code lines and colorful design
+2. Responsiveness: Accessible from all devices(desktops, mobile devices, tablets, and more).
+
+## Usage
+
+- SCSS(upgraded version of Sass): Use typing "source watch_sass.sh" in terminal to compile stylesheet.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
