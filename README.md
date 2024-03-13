@@ -45,10 +45,9 @@ This is a website designed to showcase my personal portfolio and demonstrate my 
 ```
 project/
 │
-├── index.html
-│
-├── pages/
+├── docs/
 │   ├── contact.html
+│   ├── index.html
 │   ├── portfolio.html
 │   └── skills.html
 │
