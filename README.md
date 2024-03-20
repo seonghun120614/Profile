@@ -45,16 +45,25 @@ This is a website designed to showcase my personal portfolio and demonstrate my 
 ```
 project/
 │
+├── index.html
+│
 ├── docs/
 │   ├── contact.html
-│   ├── index.html
 │   ├── portfolio.html
 │   └── skills.html
 │
 ├── css/
+│   ├── skills.css
+│   ├── contact.css
+│   ├── index.css
+│   ├── portfolio.css
 │   └── style.css
 │
 ├── scss/
+│   ├── skills.scss
+│   ├── contact.scss
+│   ├── index.scss
+│   ├── portfolio.scss
 │   └── style.scss
 │
 └── static/
