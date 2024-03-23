@@ -71,3 +71,15 @@ main {
         padding-right: 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    section p {
+        font-size: $base_font;
+    }
+}
+
+@media (max-width: 420px) {
+    section p {
+        font-size: $base_font * 0.8;
+    }
+}

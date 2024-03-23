@@ -70,5 +70,15 @@ main section img {
     padding-right: 0;
   }
 }
+@media screen and (max-width: 500px) {
+  section p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 420px) {
+  section p {
+    font-size: 0.8rem;
+  }
+}
 
 /*# sourceMappingURL=skills.css.map */
