@@ -1,11 +1,12 @@
 $base_unit: 160px;
 $base_font: 1rem;
 
+
 main {
     position: relative;
 
     section {
-        padding-top: $base_unit * 0.2;
+        padding: $base_unit * 0.2 $base_unit * 0.1;
         font-size: $base_font * 1.2;
     }
 
@@ -14,11 +15,10 @@ main {
         top: $base_unit;
         right: 0;
         i {
-            font-size: $base_font * 10;
+            font-size: $base_font * 9;
         }
     }
 }
-
 
 #letter {
     font-size: $base_font * 1.1;
@@ -48,5 +48,17 @@ main {
         color: white;
         background-color: black;
         border-radius: 3px;
+    }
+}
+
+// Teblet & Phone
+@media screen and (max-width: 1120px) {
+    main aside i {
+        display: none;
+    }
+    #letter {
+        input, textarea {
+            width: 100%;
+        }
     }
 }

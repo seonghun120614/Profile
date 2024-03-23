@@ -65,3 +65,11 @@ $aside_nav_height: $btn_height * 3 + $btn_margin * 4 + $aside_nav_padding * 2;
         transform: scale(1.1);
     }
 }
+
+@media screen and (max-width: 680px) {
+    main div aside {height: 0;}
+    #aside-nav {
+        height: 0;
+        display: none;
+    }
+}

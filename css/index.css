@@ -50,4 +50,14 @@ main div aside {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 680px) {
+  main div aside {
+    height: 0;
+  }
+  #aside-nav {
+    height: 0;
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */

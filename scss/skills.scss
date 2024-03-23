@@ -3,11 +3,12 @@ $base_unit: 160px;
 $progress_background_color: rgba(#808080, 0.3);
 $progress_color: rgba(0, 0, 0, 0.8);
 
+
 main {
     position: relative;
 
     section {
-        padding-top: $base_unit * 0.2;
+        padding: $base_unit * 0.2 $base_unit * 0.1;
         font-size: $base_font * 1.2;
 
         p {margin-top: $base_unit * 0.1;}
