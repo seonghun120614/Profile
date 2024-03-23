@@ -157,4 +157,26 @@ footer {
     body {
         padding: 0 20px;
     }
+    header p span {
+        padding: 0 $header_font_size * 0.2;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        padding: 0 20px;
+    }
+    header p span::after{
+        content: '\A\A';
+        white-space: pre;
+    }
+    header {
+        height: 400px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        min-width: 320px;
+    }
 }

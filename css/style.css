@@ -145,6 +145,26 @@ footer nav {
   body {
     padding: 0 20px;
   }
+  header p span {
+    padding: 0 0.32rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  body {
+    padding: 0 20px;
+  }
+  header p span::after {
+    content: "\a\a";
+    white-space: pre;
+  }
+  header {
+    height: 400px;
+  }
+}
+@media (max-width: 320px) {
+  body {
+    min-width: 320px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
