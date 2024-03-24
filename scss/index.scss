@@ -16,7 +16,32 @@ main div {
 
         article {
             margin-top: $base_unit * 0.2;
-            p {font-size: $base_font;}
+            h4 {
+                margin-top: $base_unit * 0.1;
+                font-size: $base_font * 1.1;
+                font-weight: bolder;
+            }
+            p {
+                font-size: $base_font * 1.1;
+            }
+            .time {
+                margin-top: $base_unit * 0.05;
+                color: #808080;
+                font-size: $base_font * 1.1;
+            }
+            .time::before {
+                content: "";
+            }
+            ul, li {
+                all: initial;
+            }
+            ul > li {
+                padding-top: $base_unit * 0.05;
+                margin-left: $base_unit * 0.2;
+                font-size: $base_font;
+                font-weight: lighter;
+                display: list-item;
+            }
         }
     }
 

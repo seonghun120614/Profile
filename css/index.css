@@ -15,8 +15,31 @@ main div section p::before {
 main div section article {
   margin-top: 32px;
 }
+main div section article h4 {
+  margin-top: 16px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
 main div section article p {
+  font-size: 1.1rem;
+}
+main div section article .time {
+  margin-top: 8px;
+  color: #808080;
+  font-size: 1.1rem;
+}
+main div section article .time::before {
+  content: "";
+}
+main div section article ul, main div section article li {
+  all: initial;
+}
+main div section article ul > li {
+  padding-top: 8px;
+  margin-left: 32px;
   font-size: 1rem;
+  font-weight: lighter;
+  display: list-item;
 }
 main div aside {
   padding: 40vh;

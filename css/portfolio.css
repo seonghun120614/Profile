@@ -1,3 +1,6 @@
+main div {
+  position: relative;
+}
 main div section {
   padding-top: 32px;
   font-size: 1.2rem;
@@ -12,8 +15,31 @@ main div section p::before {
 main div section article {
   margin-top: 32px;
 }
+main div section article h4 {
+  margin-top: 16px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
 main div section article p {
-  font-size: 1rem;
+  margin-top: 0;
+  margin-left: 16px;
+  font-size: 1.1rem;
+}
+main div section article .time {
+  margin-top: 8px;
+  color: #808080;
+  font-size: 1.1rem;
+}
+main div section article .time::before {
+  content: "";
+}
+main div section article .container {
+  margin-top: 16px;
+  display: flex;
+}
+main div section article .container .project-logo {
+  width: 196px;
+  height: 196px;
 }
 main div aside {
   padding: 40vh;
@@ -45,6 +71,12 @@ main div aside {
 #aside-nav .btn-shape:hover {
   background-color: #599468;
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 880px) {
+  .project-logo {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=portfolio.css.map */
