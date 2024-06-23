@@ -21,8 +21,8 @@ main div {
                 font-size: $base_font * 1.1;
                 font-weight: bolder;
             }
-            p {
-                font-size: $base_font * 1.1;
+            p, li {
+                font-size: $base_font;
             }
             .time {
                 margin-top: $base_unit * 0.05;

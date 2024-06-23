@@ -20,8 +20,8 @@ main div section article h4 {
   font-size: 1.1rem;
   font-weight: bolder;
 }
-main div section article p {
-  font-size: 1.1rem;
+main div section article p, main div section article li {
+  font-size: 1rem;
 }
 main div section article .time {
   margin-top: 8px;

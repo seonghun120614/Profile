@@ -38,8 +38,8 @@ main div section article .container {
   display: flex;
 }
 main div section article .container .project-logo {
-  width: 196px;
-  height: 196px;
+  width: 150px;
+  height: 150px;
 }
 main div aside {
   padding: 40vh;
