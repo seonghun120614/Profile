@@ -13,6 +13,7 @@
 <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/>
 <br/><br/>
 
-![Seonghun's GitHub stats](https://github-readme-stats.vercel.app/api?username=seonghun120614&show_icons=true&theme=radical)[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={lemonfox})](https://solved.ac/{lemonfox})![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seonghun120614)
+<a href="https://github.com/seonghun120614"><img src="https://github-readme-stats.vercel.app/api?username=seonghun120614&show_icons=true&theme=radical" alt="Seonghun's GitHub stats" height="110px"></a><a href="https://solved.ac/{lemonfox}"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj={lemonfox}" alt="Solved.ac 프로필" height="110px">
+</a>![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seonghun120614)
 
 
