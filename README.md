@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=soft&color=Red&height=200&section=header&text=Profile&fontSize=70&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=soft&color=fff&height=150&section=header&text=Profile&fontSize=70&fontColor=000)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter)](https://hits.seeyoufarm.com)
 
@@ -13,7 +13,5 @@
 <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/>
 <br/><br/>
 
-<a href="https://github.com/seonghun120614"><img src="https://github-readme-stats.vercel.app/api?username=seonghun120614&show_icons=true&theme=radical" alt="Seonghun's GitHub stats" height="110px"></a><a href="https://solved.ac/{lemonfox}"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj={lemonfox}" alt="Solved.ac 프로필" height="110px">
-</a>![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seonghun120614)
-
-
+<a href="https://github.com/seonghun120614"><img src="https://github-readme-stats.vercel.app/api?username=seonghun120614&show_icons=true&theme=radical" alt="Seonghun's GitHub stats" width="50%"></a><a href="https://solved.ac/{lemonfox}"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj={lemonfox}" alt="Solved.ac 프로필" width="50%">
+</a><a href="https://github.com/seonghun120614"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seonghun120614" alt="Top Languages" width="100%" height="300px"></a>
